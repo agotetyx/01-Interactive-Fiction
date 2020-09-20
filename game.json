@@ -1,0 +1,999 @@
+{
+  "passages": [
+    {
+      "text": "You wake up in a bed, the sun shining bright on your face. \nYou sit up and look around. The bed you are sleeping in, is massive with a tall and thick wooden poster on each corner. The window is also large and the curtins seem to have been consumed by insects, letting all the light inside. There is a mirror opposite the bed, but it is too dirty to get a good look at yourself.\nYou realize that you don't know where you are.\nWhat do you want to do?\n[[Go back to sleep]]\n[[Leave the bed]]",
+      "links": [
+        {
+          "name": "Go back to sleep",
+          "link": "Go back to sleep",
+          "pid": "3"
+        },
+        {
+          "name": "Leave the bed",
+          "link": "Leave the bed",
+          "pid": "2"
+        }
+      ],
+      "name": "Room #1",
+      "pid": "1",
+      "position": {
+        "x": "239",
+        "y": "236"
+      }
+    },
+    {
+      "text": "You get off the bed and look around the room. Everything looks old and delapidated, yet the sheets seem relatively new. \n[[Leave the room]]\n[[Look out the window]]",
+      "links": [
+        {
+          "name": "Leave the room",
+          "link": "Leave the room",
+          "pid": "5"
+        },
+        {
+          "name": "Look out the window",
+          "link": "Look out the window",
+          "pid": "6"
+        }
+      ],
+      "name": "Leave the bed",
+      "pid": "2",
+      "position": {
+        "x": "315",
+        "y": "387"
+      }
+    },
+    {
+      "text": "You are woken up by a loud crashing sound. Something seems to have broken downstairs. What is going on?\n[[Back to sleep]]\n[[Leave the bed ->Leave2]]",
+      "links": [
+        {
+          "name": "Back to sleep",
+          "link": "Back to sleep",
+          "pid": "4"
+        },
+        {
+          "name": "Leave the bed ",
+          "link": "Leave2",
+          "pid": "32"
+        }
+      ],
+      "name": "Go back to sleep",
+      "pid": "3",
+      "position": {
+        "x": "188",
+        "y": "372"
+      }
+    },
+    {
+      "text": " You wake up and there is someone at the foot of your bed. He claps his hands and laughs eagerly, as if he has been waiting for this moment for a while.\n He approaches you with knife and kills you. \n [[Restart ->Room #1]] ",
+      "links": [
+        {
+          "name": "Restart ",
+          "link": "Room #1",
+          "pid": "1"
+        }
+      ],
+      "name": "Back to sleep",
+      "pid": "4",
+      "position": {
+        "x": "155",
+        "y": "546"
+      }
+    },
+    {
+      "text": "You are standing in a hallway right outside the room you woke up in. The hallway stretches across to the left and right with a door on both sides. \nThere is a long arching stairwell directly in front of you.\nThe door on the left seems to have wooden planks nailed onto it. \nThe one on the right seems uninspiring.\n[[Head down the stairs->Living Room]]\n[[Left -> Planked Door]]\n[[Right ->Door]]\n[[Head back into the room -> Room]] ",
+      "links": [
+        {
+          "name": "Head down the stairs",
+          "link": "Living Room",
+          "pid": "8"
+        },
+        {
+          "name": "Left ",
+          "link": " Planked Door",
+          "pid": "9"
+        },
+        {
+          "name": "Right ",
+          "link": "Door",
+          "pid": "10"
+        },
+        {
+          "name": "Head back into the room ",
+          "link": " Room",
+          "pid": "7"
+        }
+      ],
+      "name": "Leave the room",
+      "pid": "5",
+      "position": {
+        "x": "319",
+        "y": "543"
+      }
+    },
+    {
+      "text": "You look out of the tall arched floor to ceiling windows. The pale winter sunlight gloomily lights the the marshes as gray mist blows over the dark, twisted trees with a low whistling sound.   \n[[Leave -> Room]]",
+      "links": [
+        {
+          "name": "Leave ",
+          "link": " Room",
+          "pid": "7"
+        }
+      ],
+      "name": "Look out the window",
+      "pid": "6",
+      "position": {
+        "x": "431",
+        "y": "539"
+      }
+    },
+    {
+      "text": "You are in a strange room with a large four-post bed to one side and a shelf to the other. A dirty mirror hangs over the dusty memorabilia placed on the shelf. Right across from the entrane of the room are huge floor to ceiling windows with arched tops.\n[[Look out the window]] \n[[Leave the room]]\n[[Get into bed ->Back to sleep]]",
+      "links": [
+        {
+          "name": "Look out the window",
+          "link": "Look out the window",
+          "pid": "6"
+        },
+        {
+          "name": "Leave the room",
+          "link": "Leave the room",
+          "pid": "5"
+        },
+        {
+          "name": "Get into bed ",
+          "link": "Back to sleep",
+          "pid": "4"
+        }
+      ],
+      "name": " Room",
+      "pid": "7",
+      "position": {
+        "x": "440",
+        "y": "756"
+      }
+    },
+    {
+      "text": "You are at the foot of the staircase in a massive living room with an  extremely tall ceiling. The flooring is made of black and white checkered marble and the furniture all seems to be Victorian. However, everything is in a very worn-out state. The upholstery and drapes have been attacked by pests and the giant chaldelier is very precariously suspended.\nThe main door of the house is opposite you.\n[[Leave the house ->Bando]] \n[[Head back up ->Leave the room]] \n[[Walk around ->Dining Room]]",
+      "links": [
+        {
+          "name": "Leave the house ",
+          "link": "Bando",
+          "pid": "13"
+        },
+        {
+          "name": "Head back up ",
+          "link": "Leave the room",
+          "pid": "5"
+        },
+        {
+          "name": "Walk around ",
+          "link": "Dining Room",
+          "pid": "14"
+        }
+      ],
+      "name": "Living Room",
+      "pid": "8",
+      "position": {
+        "x": "165",
+        "y": "686"
+      }
+    },
+    {
+      "text": "The door looks like it has intentionally been nailed shut. The handle has been broken off and there is a huge rusted lock hanging from the latch. It seems to have been locked forever ago.\n[[Open the door]]\n[[Hallway ->Leave the room]] ",
+      "links": [
+        {
+          "name": "Open the door",
+          "link": "Open the door",
+          "pid": "11"
+        },
+        {
+          "name": "Hallway ",
+          "link": "Leave the room",
+          "pid": "5"
+        }
+      ],
+      "name": " Planked Door",
+      "pid": "9",
+      "position": {
+        "x": "315",
+        "y": "687"
+      }
+    },
+    {
+      "text": "There is nothing really interesting about the door. The handle seems intact and there is a broken lock on the floor. \n[[Enter the room -> Room #2]]\n[[Hallway ->Leave the room]] ",
+      "links": [
+        {
+          "name": "Enter the room ",
+          "link": " Room #2",
+          "pid": "12"
+        },
+        {
+          "name": "Hallway ",
+          "link": "Leave the room",
+          "pid": "5"
+        }
+      ],
+      "name": "Door",
+      "pid": "10",
+      "position": {
+        "x": "551",
+        "y": "687"
+      }
+    },
+    {
+      "text": "The door wont budge.\n[[Try again ->Open the door]] \n[[Leave -> Planked Door]] ",
+      "links": [
+        {
+          "name": "Try again ",
+          "link": "Open the door",
+          "pid": "11"
+        },
+        {
+          "name": "Leave ",
+          "link": " Planked Door",
+          "pid": "9"
+        }
+      ],
+      "name": "Open the door",
+      "pid": "11",
+      "position": {
+        "x": "377",
+        "y": "872"
+      }
+    },
+    {
+      "text": "The room is dark and dingy. All the furniture is stacked up and covered by huge white sheets. The windows have been boarded out to prevent sunlight entering. There are large chests stacked on top of each other as well.\n[[Leave the room]] ",
+      "links": [
+        {
+          "name": "Leave the room",
+          "link": "Leave the room",
+          "pid": "5"
+        }
+      ],
+      "name": " Room #2",
+      "pid": "12",
+      "position": {
+        "x": "551",
+        "y": "837"
+      }
+    },
+    {
+      "text": "You are outside the gates of the abandoned mansion. \nThe structure seems ancient and is in ruins. \nVines cover almost every inch of the house and the wood has gone gray with rot.\nThe windows are all shattered and tinted a dirty brown-gray color.\nThere is a hill in the distance\n[[Walk towards the hill ->Hill foot]] \n[[Enter the mansion->Living Room]] ",
+      "links": [
+        {
+          "name": "Walk towards the hill ",
+          "link": "Hill foot",
+          "pid": "17"
+        },
+        {
+          "name": "Enter the mansion",
+          "link": "Living Room",
+          "pid": "8"
+        }
+      ],
+      "name": "Bando",
+      "pid": "13",
+      "position": {
+        "x": "152",
+        "y": "866"
+      }
+    },
+    {
+      "text": "You are standing in a large room with an extremely long dining table which can seat at least 20 people. \nThe table seems set, with plates and cutlery placed in front of each seat.\nThere are small silver domes along the whole length of the table.\nThe room looks like it was set for  dinner party, but the guests never arrived.\nWax covers a few of the seats in the center of the table. The empty candle stand hanging directly above accounts for this.\n[[Lift up cloche ->Spoil food]]\n[[Leave ->Living Room]] \n[[Kitchen]]",
+      "links": [
+        {
+          "name": "Lift up cloche ",
+          "link": "Spoil food",
+          "pid": "15"
+        },
+        {
+          "name": "Leave ",
+          "link": "Living Room",
+          "pid": "8"
+        },
+        {
+          "name": "Kitchen",
+          "link": "Kitchen",
+          "pid": "16"
+        }
+      ],
+      "name": "Dining Room",
+      "pid": "14",
+      "position": {
+        "x": "19",
+        "y": "652"
+      }
+    },
+    {
+      "text": "The stench is absolutely terrible. Around 2-3 dozen flies burst out the second you lift up the cover. The food under the cloche is barely recognizeable. Moulds of multiple different colors grow on the food while insects try and consume what has been left out.\n[[Leave ->Dining Room]] \n",
+      "links": [
+        {
+          "name": "Leave ",
+          "link": "Dining Room",
+          "pid": "14"
+        }
+      ],
+      "name": "Spoil food",
+      "pid": "15",
+      "position": {
+        "x": "2",
+        "y": "806"
+      }
+    },
+    {
+      "text": "The door is locked. It won't open.\n[[Try again ->Kitchen]] \n[[Leave ->Dining Room]] ",
+      "links": [
+        {
+          "name": "Try again ",
+          "link": "Kitchen",
+          "pid": "16"
+        },
+        {
+          "name": "Leave ",
+          "link": "Dining Room",
+          "pid": "14"
+        }
+      ],
+      "name": "Kitchen",
+      "pid": "16",
+      "position": {
+        "x": "57",
+        "y": "1063"
+      }
+    },
+    {
+      "text": "You are now at the foot of the hill. Still in the forest. There is a building in the distace.\n[[Go North->Forest]]\n[[Go East->Hill]]\n[[Go South->Valley]]\n[[Go West->Bando]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Forest",
+          "pid": "18"
+        },
+        {
+          "name": "Go East",
+          "link": "Hill",
+          "pid": "19"
+        },
+        {
+          "name": "Go South",
+          "link": "Valley",
+          "pid": "20"
+        },
+        {
+          "name": "Go West",
+          "link": "Bando",
+          "pid": "13"
+        }
+      ],
+      "name": "Hill foot",
+      "pid": "17",
+      "position": {
+        "x": "343",
+        "y": "1087"
+      }
+    },
+    {
+      "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest cotd.]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Forest cotd.",
+          "pid": "29"
+        },
+        {
+          "name": "Go East",
+          "link": "Building",
+          "pid": "23"
+        },
+        {
+          "name": "Go South",
+          "link": "Road",
+          "pid": "22"
+        },
+        {
+          "name": "Go West",
+          "link": "Hill",
+          "pid": "19"
+        }
+      ],
+      "name": "Forest",
+      "pid": "18",
+      "position": {
+        "x": "118",
+        "y": "1237"
+      }
+    },
+    {
+      "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill foot]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Forest",
+          "pid": "18"
+        },
+        {
+          "name": "Go East",
+          "link": "Road",
+          "pid": "22"
+        },
+        {
+          "name": "Go South",
+          "link": "Valley",
+          "pid": "20"
+        },
+        {
+          "name": "Go West",
+          "link": "Hill foot",
+          "pid": "17"
+        }
+      ],
+      "name": "Hill",
+      "pid": "19",
+      "position": {
+        "x": "273",
+        "y": "1237"
+      }
+    },
+    {
+      "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley cotd.]]\n[[Go West->Hill]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Road",
+          "pid": "22"
+        },
+        {
+          "name": "Go East",
+          "link": "Building",
+          "pid": "23"
+        },
+        {
+          "name": "Go South",
+          "link": "Valley cotd.",
+          "pid": "24"
+        },
+        {
+          "name": "Go West",
+          "link": "Hill",
+          "pid": "19"
+        }
+      ],
+      "name": "Valley",
+      "pid": "20",
+      "position": {
+        "x": "418",
+        "y": "1237"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "pid": "21",
+      "position": {
+        "x": "568",
+        "y": "1237"
+      }
+    },
+    {
+      "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Forest",
+          "pid": "18"
+        },
+        {
+          "name": "Go East",
+          "link": "Building",
+          "pid": "23"
+        },
+        {
+          "name": "Go South",
+          "link": "Valley",
+          "pid": "20"
+        },
+        {
+          "name": "Go West",
+          "link": "Hill",
+          "pid": "19"
+        }
+      ],
+      "name": "Road",
+      "pid": "22",
+      "position": {
+        "x": "273",
+        "y": "1387"
+      }
+    },
+    {
+      "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Forest",
+          "pid": "18"
+        },
+        {
+          "name": "Go East",
+          "link": "Building",
+          "pid": "23"
+        },
+        {
+          "name": "Go South",
+          "link": "Valley",
+          "pid": "20"
+        },
+        {
+          "name": "Go West",
+          "link": "Road",
+          "pid": "22"
+        }
+      ],
+      "name": "Building",
+      "pid": "23",
+      "position": {
+        "x": "271",
+        "y": "1537"
+      }
+    },
+    {
+      "text": "You continue walking through the valley along the stream.\n[[Go North->Valley]]\n[[Go East->Building]]\n[[Go South->Valley end]]\n[[Go West->Hill]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Valley",
+          "pid": "20"
+        },
+        {
+          "name": "Go East",
+          "link": "Building",
+          "pid": "23"
+        },
+        {
+          "name": "Go South",
+          "link": "Valley end",
+          "pid": "25"
+        },
+        {
+          "name": "Go West",
+          "link": "Hill",
+          "pid": "19"
+        }
+      ],
+      "name": "Valley cotd.",
+      "pid": "24",
+      "position": {
+        "x": "418",
+        "y": "1388"
+      }
+    },
+    {
+      "text": "You have exited the valley but continue walking along the stream.\n[[Go North->Valley cotd.]]\n[[Go East->Building]]\n[[Go South->Stream]]\n[[Go West->Hill]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Valley cotd.",
+          "pid": "24"
+        },
+        {
+          "name": "Go East",
+          "link": "Building",
+          "pid": "23"
+        },
+        {
+          "name": "Go South",
+          "link": "Stream",
+          "pid": "26"
+        },
+        {
+          "name": "Go West",
+          "link": "Hill",
+          "pid": "19"
+        }
+      ],
+      "name": "Valley end",
+      "pid": "25",
+      "position": {
+        "x": "418",
+        "y": "1538"
+      }
+    },
+    {
+      "text": "You continue walking along the stream, but it seems to merge with a larger river.\nThe banks are now much steeper and the current has increased drastically.\n[[Go North->Valley end]]\n[[Go East->Building]]\n[[Go South->River]]\n[[Go West->Hill]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Valley end",
+          "pid": "25"
+        },
+        {
+          "name": "Go East",
+          "link": "Building",
+          "pid": "23"
+        },
+        {
+          "name": "Go South",
+          "link": "River",
+          "pid": "27"
+        },
+        {
+          "name": "Go West",
+          "link": "Hill",
+          "pid": "19"
+        }
+      ],
+      "name": "Stream",
+      "pid": "26",
+      "position": {
+        "x": "418",
+        "y": "1688"
+      }
+    },
+    {
+      "text": "You are walking along the river. \nThe river banks are muddy and splippery and the current of the water is incredibly strong.\nThe ground is colapsing below your feet.\n[[Continue along river-> Croc]]\n[[Head back ->Stream]] ",
+      "links": [
+        {
+          "name": "Continue along river",
+          "link": " Croc",
+          "pid": "28"
+        },
+        {
+          "name": "Head back ",
+          "link": "Stream",
+          "pid": "26"
+        }
+      ],
+      "name": "River",
+      "pid": "27",
+      "position": {
+        "x": "418",
+        "y": "1838"
+      }
+    },
+    {
+      "text": "The land below you gives way and you slip into the river.\nA crocodile, hiding underwater, senses your presence and attacks you.\n[[Restart->Room #1]] ",
+      "links": [
+        {
+          "name": "Restart",
+          "link": "Room #1",
+          "pid": "1"
+        }
+      ],
+      "name": " Croc",
+      "pid": "28",
+      "position": {
+        "x": "417",
+        "y": "1988"
+      }
+    },
+    {
+      "text": "You continue to walk through the forest.\n[[Go North->Forest cotd. 2]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Forest cotd. 2",
+          "pid": "30"
+        },
+        {
+          "name": "Go East",
+          "link": "Building",
+          "pid": "23"
+        },
+        {
+          "name": "Go South",
+          "link": "Valley",
+          "pid": "20"
+        },
+        {
+          "name": "Go West",
+          "link": "Hill",
+          "pid": "19"
+        }
+      ],
+      "name": "Forest cotd.",
+      "pid": "29",
+      "position": {
+        "x": "119",
+        "y": "1387"
+      }
+    },
+    {
+      "text": "You continue to walk through the forest.\n[[Go North->Meadow]]\n[[Go East->Building]]\n[[Go South->Forest cotd.]]\n[[Go West->Hill]]",
+      "links": [
+        {
+          "name": "Go North",
+          "link": "Meadow",
+          "pid": "31"
+        },
+        {
+          "name": "Go East",
+          "link": "Building",
+          "pid": "23"
+        },
+        {
+          "name": "Go South",
+          "link": "Forest cotd.",
+          "pid": "29"
+        },
+        {
+          "name": "Go West",
+          "link": "Hill",
+          "pid": "19"
+        }
+      ],
+      "name": "Forest cotd. 2",
+      "pid": "30",
+      "position": {
+        "x": "121",
+        "y": "1537"
+      }
+    },
+    {
+      "text": "You have arrived at a lush green Meadow full of bright purple flowers. It streaches as far as your eyes can see. \n[[Go South->Forest cotd. 2]]",
+      "links": [
+        {
+          "name": "Go South",
+          "link": "Forest cotd. 2",
+          "pid": "30"
+        }
+      ],
+      "name": "Meadow",
+      "pid": "31",
+      "position": {
+        "x": "121",
+        "y": "1687"
+      }
+    },
+    {
+      "text": "You get off the bed and look around the room. Everything looks old and delapidated, yet the sheets seem relatively new. \n[[Leave the room ->Room2]]\n[[Look out the window2]]",
+      "links": [
+        {
+          "name": "Leave the room ",
+          "link": "Room2",
+          "pid": "36"
+        },
+        {
+          "name": "Look out the window2",
+          "link": "Look out the window2",
+          "pid": "34"
+        }
+      ],
+      "name": "Leave2",
+      "pid": "32",
+      "position": {
+        "x": "27",
+        "y": "361"
+      }
+    },
+    {
+      "text": "You are standing in a hallway right outside the room you woke up in. The hallway stretches across to the left and right with a door on both sides. \nThere is a long arching stairwell directly in front of you.\nThe door on the left seems to have wooden planks nailed onto it. \nThe one on the right seems uninspiring.\n[[Head down the stairs->Living Room2]]\n\n[[Head back into the room ->Room2]] ",
+      "links": [
+        {
+          "name": "Head down the stairs",
+          "link": "Living Room2",
+          "pid": "35"
+        },
+        {
+          "name": "Head back into the room ",
+          "link": "Room2",
+          "pid": "36"
+        }
+      ],
+      "name": "Leave the room2",
+      "pid": "33",
+      "position": {
+        "x": "783",
+        "y": "348"
+      }
+    },
+    {
+      "text": "You look out of the tall arched floor to ceiling windows. The pale winter sunlight gloomily lights the the marshes as gray mist blows over the dark, twisted trees with a low whistling sound.  \nYou suddenly hear another huge crashing sound. Something is going on downstairs. \n\n[[Leave the room ->Leave the room2]]",
+      "links": [
+        {
+          "name": "Leave the room ",
+          "link": "Leave the room2",
+          "pid": "33"
+        }
+      ],
+      "name": "Look out the window2",
+      "pid": "34",
+      "position": {
+        "x": "29",
+        "y": "512"
+      }
+    },
+    {
+      "text": "You are at the foot of the staircase in a massive living room with an  extremely tall ceiling. Glass is strewn across the black and white checkered marble flooring. The chandelier hanging from the ceiling had falled and broken.\nThe Victorian furniture is in a very worn-out state. The upholstery and drapes have been attacked by pests.\nYou can hear a sort of commotion coming from the other side of  the house.\nThe main door of the house is opposite you.\n[[Leave the house]] \n[[Head back up ->Leave the room2]] \n[[Look around ->Dining Room2]]",
+      "links": [
+        {
+          "name": "Leave the house",
+          "link": "Leave the house",
+          "pid": "37"
+        },
+        {
+          "name": "Head back up ",
+          "link": "Leave the room2",
+          "pid": "33"
+        },
+        {
+          "name": "Look around ",
+          "link": "Dining Room2",
+          "pid": "38"
+        }
+      ],
+      "name": "Living Room2",
+      "pid": "35",
+      "position": {
+        "x": "708",
+        "y": "498"
+      }
+    },
+    {
+      "text": "You are in a strange room with a large four-post bed to one side and a shelf to the other. A dirty mirror hangs over the dusty memorabilia placed on the shelf. Right across from the entrane of the room are huge floor to ceiling windows with arched tops.\nYou need to investigate what is going on downstairs.\n[[Look out the window2]] \n[[Leave the room2]]\n[[Get into bed ->Back to sleep]]",
+      "links": [
+        {
+          "name": "Look out the window2",
+          "link": "Look out the window2",
+          "pid": "34"
+        },
+        {
+          "name": "Leave the room2",
+          "link": "Leave the room2",
+          "pid": "33"
+        },
+        {
+          "name": "Get into bed ",
+          "link": "Back to sleep",
+          "pid": "4"
+        }
+      ],
+      "name": "Room2",
+      "pid": "36",
+      "position": {
+        "x": "519",
+        "y": "231"
+      }
+    },
+    {
+      "text": "The door is locked. \n[[Try again ->Leave the house]] \n[[Leave ->Living Room2]]",
+      "links": [
+        {
+          "name": "Try again ",
+          "link": "Leave the house",
+          "pid": "37"
+        },
+        {
+          "name": "Leave ",
+          "link": "Living Room2",
+          "pid": "35"
+        }
+      ],
+      "name": "Leave the house",
+      "pid": "37",
+      "position": {
+        "x": "923",
+        "y": "624"
+      }
+    },
+    {
+      "text": "You follow the noise and find yourself in a large dining room with at least twenty men sitting along it. There is a foul stench in the air. \nYou see the cutlery, cloches and broken china all over the floor and these savages are grabbing the food directly from the serving plates and stuffing it down their faces.\nThey have on multiple layers of shawls and clothing to protect them from the harsh winter.   \nEach man has a side arm around his belt and a pile of guns and blades lay in the corner of the room. \nFlies buzz over the men as they gluttonize the already stale food.\nThey have not noticed you yet.\n[[Leave ->Living Room2]] \n[[Sneak into the Kitchen ->Kitchen2]]",
+      "links": [
+        {
+          "name": "Leave ",
+          "link": "Living Room2",
+          "pid": "35"
+        },
+        {
+          "name": "Sneak into the Kitchen ",
+          "link": "Kitchen2",
+          "pid": "39"
+        }
+      ],
+      "name": "Dining Room2",
+      "pid": "38",
+      "position": {
+        "x": "759",
+        "y": "724"
+      }
+    },
+    {
+      "text": "The door is locked. It won't open.\n[[Try again ->Kitchen2 cotd]] \n[[Leave ->Dining Room2 ded]] ",
+      "links": [
+        {
+          "name": "Try again ",
+          "link": "Kitchen2 cotd",
+          "pid": "40"
+        },
+        {
+          "name": "Leave ",
+          "link": "Dining Room2 ded",
+          "pid": "41"
+        }
+      ],
+      "name": "Kitchen2",
+      "pid": "39",
+      "position": {
+        "x": "759",
+        "y": "874"
+      }
+    },
+    {
+      "text": "The door is locked. It won't open.\n[[Try again ->Kitchen cotd 2]] \n[[Leave ->Dining Room2 ded]] ",
+      "links": [
+        {
+          "name": "Try again ",
+          "link": "Kitchen cotd 2",
+          "pid": "42"
+        },
+        {
+          "name": "Leave ",
+          "link": "Dining Room2 ded",
+          "pid": "41"
+        }
+      ],
+      "name": "Kitchen2 cotd",
+      "pid": "40",
+      "position": {
+        "x": "759",
+        "y": "1024"
+      }
+    },
+    {
+      "text": "You walk back into the dining rooom and see all the men staring at you.\nThey all drop what they're eating, pick up their guns at shoot you.\n[[Restart ->Room #1]] ",
+      "links": [
+        {
+          "name": "Restart ",
+          "link": "Room #1",
+          "pid": "1"
+        }
+      ],
+      "name": "Dining Room2 ded",
+      "pid": "41",
+      "position": {
+        "x": "911",
+        "y": "971"
+      }
+    },
+    {
+      "text": "The door is locked. It won't open.\n[[Try again ->Kitchen2 ded]] \n[[Leave ->Dining Room2 ded]] ",
+      "links": [
+        {
+          "name": "Try again ",
+          "link": "Kitchen2 ded",
+          "pid": "43"
+        },
+        {
+          "name": "Leave ",
+          "link": "Dining Room2 ded",
+          "pid": "41"
+        }
+      ],
+      "name": "Kitchen cotd 2",
+      "pid": "42",
+      "position": {
+        "x": "759",
+        "y": "1174"
+      }
+    },
+    {
+      "text": "You feel a sudden weight on your shoulder. You look up to see a large, tall, bald man with a thick, scruffy beard and an eyepatch. Behind him are the rest of the men you saw at the table. They heard you struggling to open the door.\nThe large man places a knife to your throat and kills you. \n[[Restart ->Room #1]] ",
+      "links": [
+        {
+          "name": "Restart ",
+          "link": "Room #1",
+          "pid": "1"
+        }
+      ],
+      "name": "Kitchen2 ded",
+      "pid": "43",
+      "position": {
+        "x": "759",
+        "y": "1324"
+      }
+    }
+  ],
+  "name": "Mansion",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "5B0C16E3-6441-44E4-A0AC-02E097663905"
+}
